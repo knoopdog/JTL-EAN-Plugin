@@ -214,4 +214,4 @@ Dieses Plugin steht unter der GPL v3 oder höher.
 
 ## Credits
 
-Entwickelt von Visuell Code, basierend auf der EAN-Funktionalität von WooCommerce Germanized.
+Entwickelt von Karl Knoop, basierend auf der EAN-Funktionalität von WooCommerce Germanized.

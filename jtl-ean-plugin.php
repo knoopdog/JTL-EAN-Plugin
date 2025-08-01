@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: JTL EAN Plugin
- * Plugin URI: https://visuell-code.de
+ * Plugin URI: https://github.com/knoopdog/JTL-EAN-Plugin
  * Description: Lightweight EAN/GTIN support for WooCommerce with JTL Connector compatibility. Extracted functionality from WooCommerce Germanized without the additional features.
  * Version: 1.0.0
- * Author: Visuell Code
- * Author URI: https://visuell-code.de
+ * Author: Karl Knoop
+ * Author URI: https://github.com/knoopdog
  * Requires at least: 5.0
  * Tested up to: 6.4
  * Requires PHP: 7.4

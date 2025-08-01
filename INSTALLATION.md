@@ -71,6 +71,6 @@ Bei Problemen:
 
 ---
 
-**Entwickelt von:** Visuell Code  
+**Entwickelt von:** Karl Knoop  
 **Version:** 1.0.0  
 **Kompatibel mit:** WordPress 5.0+, WooCommerce 3.0+

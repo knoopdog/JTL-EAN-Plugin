@@ -1,5 +1,5 @@
 # JTL EAN Plugin - Translation Template
-# Copyright (C) 2025 Visuell Code
+# Copyright (C) 2025 Karl Knoop
 # This file is distributed under the same license as the JTL EAN Plugin package.
 #, fuzzy
 msgid ""
