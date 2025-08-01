@@ -15,6 +15,7 @@ Dieses Plugin wurde entwickelt, um nur die EAN-Funktionalität aus dem umfangrei
 - **Bulk-Edit**: Massen-Bearbeitung von EAN/GTIN-Werten
 - **Quick-Edit**: Schnellbearbeitung direkt in der Produktliste
 - **WooCommerce Core Fallback**: Unterstützung für die native WooCommerce GTIN-Funktionalität
+- **Mehrsprachigkeit**: Unterstützt Deutsch und Englisch, automatische Spracherkennung basierend auf WordPress-Einstellungen
 
 ## Systemanforderungen
 
@@ -141,6 +142,15 @@ Ja, das Plugin unterstützt vollständig Produktvariationen. Jede Variation kann
 
 Ja, das Plugin funktioniert auch unabhängig vom JTL Connector als einfache EAN/GTIN-Lösung für WooCommerce.
 
+### Welche Sprachen werden unterstützt?
+
+Das Plugin unterstützt automatische Spracherkennung und ist verfügbar in:
+- **Deutsch (de_DE)** - Standard für deutsche WordPress-Installationen
+- **Deutsch Formal (de_DE_formal)** - Sie-Form für offizielle/geschäftliche Umgebungen  
+- **Englisch (en_US)** - Standard für internationale Installationen
+
+Die Sprache wird automatisch basierend auf Ihren WordPress-Spracheinstellungen erkannt.
+
 ## Entwicklung
 
 ### Projektstruktur
@@ -152,7 +162,15 @@ jtl-ean-plugin/
 │   ├── class-jtl-ean-product.php   # EAN-Produktklasse
 │   ├── class-jtl-ean-admin.php     # Admin-Interface
 │   └── class-jtl-ean-api.php       # REST API-Erweiterungen
-└── README.md                    # Diese Datei
+├── languages/                  # Übersetzungsdateien
+│   ├── jtl-ean-plugin.pot         # Template für Übersetzungen
+│   ├── jtl-ean-plugin-de_DE.po    # Deutsche Übersetzung (Du-Form)
+│   ├── jtl-ean-plugin-de_DE.mo    # Kompilierte deutsche Übersetzung
+│   ├── jtl-ean-plugin-de_DE_formal.po  # Deutsche Übersetzung (Sie-Form)
+│   └── jtl-ean-plugin-de_DE_formal.mo  # Kompilierte formale deutsche Übersetzung
+├── uninstall.php               # Deinstallations-Script
+├── INSTALLATION.md             # Installationsanleitung
+└── README.md                   # Diese Datei
 ```
 
 ### Entwickler-Funktionen

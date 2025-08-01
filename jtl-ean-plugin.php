@@ -109,7 +109,15 @@ final class JTL_EAN_Plugin {
      * Load plugin textdomain for translations
      */
     public function load_textdomain() {
-        load_plugin_textdomain( 'jtl-ean-plugin', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+        // Load textdomain for internationalization
+        $domain = 'jtl-ean-plugin';
+        $locale = apply_filters( 'plugin_locale', get_locale(), $domain );
+        
+        // Try to load from WordPress languages directory first
+        load_textdomain( $domain, trailingslashit( WP_LANG_DIR ) . $domain . '/' . $domain . '-' . $locale . '.mo' );
+        
+        // Fallback to plugin languages directory
+        load_plugin_textdomain( $domain, false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
     }
 
     /**

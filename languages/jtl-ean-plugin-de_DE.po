@@ -1,0 +1,209 @@
+# German translations for JTL EAN Plugin
+# Copyright (C) 2025 Visuell Code
+# This file is distributed under the same license as the JTL EAN Plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: JTL EAN Plugin 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-01 00:00+0000\n"
+"PO-Revision-Date: 2025-08-01 00:00+0000\n"
+"Last-Translator: Visuell Code\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: jtl-ean-plugin.php:129
+msgid "JTL EAN Plugin requires WooCommerce to be installed and active."
+msgstr "Das JTL EAN Plugin benötigt WooCommerce zur Funktion."
+
+#: jtl-ean-plugin.php:159
+msgid "Plugin Activation Error"
+msgstr "Plugin Aktivierungsfehler"
+
+#: includes/class-jtl-ean-admin.php:71
+msgid "Product Identifiers"
+msgstr "Produktkennzeichnungen"
+
+#: includes/class-jtl-ean-admin.php:72
+msgid "Product identification codes used for inventory management and e-commerce platforms."
+msgstr "Produktkennzeichnungen für Lagerverwaltung und E-Commerce-Plattformen."
+
+#: includes/class-jtl-ean-admin.php:80
+msgid "GTIN / EAN"
+msgstr "GTIN / EAN"
+
+#: includes/class-jtl-ean-admin.php:82
+msgid "Global Trade Item Number (GTIN) or European Article Number (EAN) that uniquely identifies your product worldwide."
+msgstr "Globale Handelsartikelnummer (GTIN) oder Europäische Artikelnummer (EAN) zur weltweiten eindeutigen Produktidentifikation."
+
+#: includes/class-jtl-ean-admin.php:93
+msgid "MPN"
+msgstr "MPN"
+
+#: includes/class-jtl-ean-admin.php:95
+msgid "Manufacturer Part Number (MPN) assigned by the product manufacturer."
+msgstr "Herstellernummer (MPN) die vom Produkthersteller vergeben wird."
+
+#: includes/class-jtl-ean-admin.php:166
+msgid "GTIN for this variation"
+msgstr "GTIN für diese Variante"
+
+#: includes/class-jtl-ean-admin.php:180
+msgid "MPN for this variation"
+msgstr "MPN für diese Variante"
+
+#: includes/class-jtl-ean-admin.php:234
+msgid "GTIN"
+msgstr "GTIN"
+
+#: includes/class-jtl-ean-admin.php:436
+msgid "JTL EAN Settings"
+msgstr "JTL EAN Einstellungen"
+
+#: includes/class-jtl-ean-admin.php:437
+msgid "JTL EAN"
+msgstr "JTL EAN"
+
+#: includes/class-jtl-ean-admin.php:451
+msgid "JTL EAN Plugin Settings"
+msgstr "JTL EAN Plugin Einstellungen"
+
+#: includes/class-jtl-ean-admin.php:454
+msgid "This plugin provides EAN/GTIN functionality for WooCommerce with JTL Connector compatibility."
+msgstr "Dieses Plugin bietet EAN/GTIN-Funktionalität für WooCommerce mit JTL Connector-Kompatibilität."
+
+#: includes/class-jtl-ean-admin.php:462
+msgid "Plugin Statistics"
+msgstr "Plugin-Statistiken"
+
+#: includes/class-jtl-ean-admin.php:469
+msgid "Plugin Version:"
+msgstr "Plugin-Version:"
+
+#: includes/class-jtl-ean-admin.php:472
+msgid "Products with GTIN:"
+msgstr "Produkte mit GTIN:"
+
+#: includes/class-jtl-ean-admin.php:475
+msgid "Products with MPN:"
+msgstr "Produkte mit MPN:"
+
+#: includes/class-jtl-ean-admin.php:478
+msgid "Database Entries:"
+msgstr "Datenbankeinträge:"
+
+#: includes/class-jtl-ean-admin.php:491
+msgid "Complete Uninstallation"
+msgstr "Vollständige Deinstallation"
+
+#: includes/class-jtl-ean-admin.php:494
+msgid "Warning:"
+msgstr "Warnung:"
+
+#: includes/class-jtl-ean-admin.php:494
+msgid "This will completely remove ALL EAN/GTIN data from your database!"
+msgstr "Dies wird ALLE EAN/GTIN-Daten vollständig aus Ihrer Datenbank entfernen!"
+
+#: includes/class-jtl-ean-admin.php:496
+msgid "This action will:"
+msgstr "Diese Aktion wird:"
+
+#: includes/class-jtl-ean-admin.php:498
+msgid "Delete all GTIN/EAN values from all products"
+msgstr "Alle GTIN/EAN-Werte von allen Produkten löschen"
+
+#: includes/class-jtl-ean-admin.php:499
+msgid "Delete all MPN values from all products"
+msgstr "Alle MPN-Werte von allen Produkten löschen"
+
+#: includes/class-jtl-ean-admin.php:500
+msgid "Remove all plugin settings"
+msgstr "Alle Plugin-Einstellungen entfernen"
+
+#: includes/class-jtl-ean-admin.php:501
+msgid "Deactivate the plugin"
+msgstr "Das Plugin deaktivieren"
+
+#: includes/class-jtl-ean-admin.php:505
+msgid "Data Recovery:"
+msgstr "Datenwiederherstellung:"
+
+#: includes/class-jtl-ean-admin.php:506
+msgid "After uninstallation, this data cannot be recovered unless you have a database backup!"
+msgstr "Nach der Deinstallation können diese Daten nicht wiederhergestellt werden, es sei denn, Sie haben ein Datenbank-Backup!"
+
+#: includes/class-jtl-ean-admin.php:509
+msgid "Are you absolutely sure you want to delete ALL EAN/GTIN data? This cannot be undone!"
+msgstr "Sind Sie absolut sicher, dass Sie ALLE EAN/GTIN-Daten löschen möchten? Dies kann nicht rückgängig gemacht werden!"
+
+#: includes/class-jtl-ean-admin.php:514
+msgid "I understand that this will permanently delete all EAN/GTIN data"
+msgstr "Ich verstehe, dass dadurch alle EAN/GTIN-Daten dauerhaft gelöscht werden"
+
+#: includes/class-jtl-ean-admin.php:518
+msgid "I confirm that I have a database backup or accept the data loss"
+msgstr "Ich bestätige, dass ich ein Datenbank-Backup habe oder den Datenverlust akzeptiere"
+
+#: includes/class-jtl-ean-admin.php:523
+msgid "Completely Uninstall Plugin & Delete All Data"
+msgstr "Plugin vollständig deinstallieren & alle Daten löschen"
+
+#: includes/class-jtl-ean-admin.php:533
+msgid "Export Data (Backup)"
+msgstr "Daten exportieren (Backup)"
+
+#: includes/class-jtl-ean-admin.php:536
+msgid "Before uninstalling, you can export your EAN/GTIN data for backup purposes."
+msgstr "Vor der Deinstallation können Sie Ihre EAN/GTIN-Daten zur Sicherung exportieren."
+
+#: includes/class-jtl-ean-admin.php:541
+msgid "Export EAN/GTIN Data (CSV)"
+msgstr "EAN/GTIN-Daten exportieren (CSV)"
+
+#: includes/class-jtl-ean-admin.php:593
+msgid "Security check failed."
+msgstr "Sicherheitsprüfung fehlgeschlagen."
+
+#: includes/class-jtl-ean-admin.php:597
+msgid "You do not have sufficient permissions."
+msgstr "Sie haben nicht die erforderlichen Berechtigungen."
+
+#: includes/class-jtl-ean-admin.php:602
+msgid "Please confirm both checkboxes to proceed."
+msgstr "Bitte bestätigen Sie beide Kontrollkästchen, um fortzufahren."
+
+#: includes/class-jtl-ean-admin.php:655
+msgid "JTL EAN Plugin successfully uninstalled! Deleted: %d GTIN entries, %d MPN entries. Database cleaned and plugin deactivated."
+msgstr "JTL EAN Plugin erfolgreich deinstalliert! Gelöscht: %d GTIN-Einträge, %d MPN-Einträge. Datenbank bereinigt und Plugin deaktiviert."
+
+#: includes/class-jtl-ean-admin.php:696
+msgid "No EAN/GTIN data found to export."
+msgstr "Keine EAN/GTIN-Daten zum Exportieren gefunden."
+
+#: includes/class-jtl-ean-api.php:120
+msgid "Global Trade Item Number (GTIN)"
+msgstr "Globale Handelsartikelnummer (GTIN)"
+
+#: includes/class-jtl-ean-api.php:128
+msgid "Manufacturer Part Number (MPN)"
+msgstr "Herstellernummer (MPN)"
+
+#: includes/class-jtl-ean-api.php:232
+msgid "Product ID"
+msgstr "Produkt-ID"
+
+#: includes/class-jtl-ean-api.php:238
+msgid "GTIN value"
+msgstr "GTIN-Wert"
+
+#: includes/class-jtl-ean-api.php:252
+msgid "MPN value"
+msgstr "MPN-Wert"
+
+#: includes/class-jtl-ean-api.php:276
+msgid "Product not found."
+msgstr "Produkt nicht gefunden."
+

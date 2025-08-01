@@ -41,3 +41,6 @@ node_modules/
 *.tmp
 *.temp
 ~*
+
+# Keep compiled language files
+!*.mo
